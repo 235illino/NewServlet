@@ -7,10 +7,25 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>First JSP</title>
+</head>
+<body>
+    <h1>Testing JSP</h1>
+<%--<%  %>--%>
+    <p>
+        <%@ page import="java.util.Date, logic.Test" %>
+        <%
+            Test test = new Test();
+        %>
+
+
+        <%=
+        test.getInfo()
+
+        %>
+
+    </p>
+
+</body>
 </html>
