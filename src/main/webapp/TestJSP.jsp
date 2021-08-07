@@ -12,20 +12,5 @@
 </head>
 <body>
     <h1>Testing JSP</h1>
-<%--<%  %>--%>
-    <p>
-        <%@ page import="java.util.Date, logic.Test" %>
-        <%
-            Test test = new Test();
-        %>
-
-
-        <%=
-        test.getInfo()
-
-        %>
-
-    </p>
-
 </body>
 </html>
